@@ -28,11 +28,10 @@ ul {
     --grey:rgb(229,229,229);
     --grey__icon:rgb(91,88,88);
     --orange__bell:rgb(237,133,0);
+    --back__header:rgb(248,249,250);
 }
 
-.debug header {
-    background-color: brown;
-}
+
 
 .debug .sidebar {
     background-color: var(--blue);
@@ -45,6 +44,10 @@ ul {
 
 
 /* HEADER */
+
+header {
+    background-color: var(--back__header);
+}
 
 .mb-3 {
     margin-bottom: 0! important;
