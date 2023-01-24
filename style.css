@@ -20,4 +20,23 @@ ul {
     --azure:rgb(27,114,232);
     --blue:rgb(15,38,60);
     --blue-badgs:rgb(22,91,186);
+    --grey:rgb(229,229,229);
+}
+
+/* HEADER */
+
+.mb-3 {
+    margin-bottom: 0! important;
+}
+
+.nav-header .input-group-text {
+    border-right: 0;
+    background-color: var(--grey);
+    padding: 4px;
+}
+
+.nav-header .form-control {
+    border-left: 0;
+    background-color: var(--grey);
+    padding: 4px;
 }
