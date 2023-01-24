@@ -27,6 +27,7 @@ ul {
     --blue-badgs:rgb(22,91,186);
     --grey:rgb(229,229,229);
     --grey__icon:rgb(91,88,88);
+    --orange__bell:rgb(237,133,0);
 }
 
 .debug header {
@@ -68,6 +69,12 @@ ul {
     border-radius: 999px;
     border: 1px solid;
     aspect-ratio: 2.3/1;
+}
+
+.bell-dropdown {
+    border: 0;
+    background-color: white;
+    color: var(--orange__bell);
 }
 
 
