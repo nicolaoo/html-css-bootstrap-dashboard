@@ -37,8 +37,9 @@ ul {
 
 .debug .header-hero {
     background-color: var(--azure);
-    
 }
+
+
 
 
 /* HEADER */
@@ -166,15 +167,16 @@ header {
 .hero {
     flex-grow: 1;
     width: calc(100% - 140px);
-    overflow: auto;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .header-hero {
     background-color: var(--azure);
-    height: 100px;
     flex-shrink: 0;
+    padding: 20px 10px;
 }
 
 .hero-content {
@@ -182,7 +184,9 @@ header {
     flex-grow: 1;
 }
 
-
+.text-bg-primary {
+    background-color: var(--blue-badgs)!important;
+}
 
 
 

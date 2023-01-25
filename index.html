@@ -116,15 +116,76 @@
             </div>
             <div class="hero">
                 <div class="header-hero">
-                    <div class="row jusify-content-between">
-                        <div class="col-4  bg-white">
-
+                    <div class="row justify-content-between">
+                        <div class="col-4 prova text-white">
+                            <div class="col-12 pb-2 d-flex align-items-center gap-2">
+                                <h2 class="mb-auto d-inline-block ">
+                                    Boolean
+                                </h2>
+                                <span class="badge rounded-pill text-bg-primary mt-2">Piano blaze</span>
+                            </div>
+                            <div class="col-12">
+                                <span class="badge rounded-pill text-bg-primary">3 app</span>
+                                <i class="fa-solid fa-angles-right"></i>
+                                <span class="badge rounded-pill text-bg-primary">Boolean mobile app</span>
+                                <span class="badge rounded-pill text-bg-primary">Boolean web app</span>
+                                <span class="badge rounded-pill text-bg-primary">Boolean blog app</span>
+                            </div>
+                            
                         </div>
-                        <div class="col-2 bg-white">
-
+                        <div class="col-3 prova text-white">
+                            <p class=" mb-auto">
+                                Studenti online negli ultimi 30 minuti
+                            </p>
+                            <p class="fs-2 mb-auto">
+                                125
+                            </p>
                         </div>
-                        <div class="col-2 bg-white">
+                        <div class="col-2 prova text-white">
+                            Nuovo studente 
+                            <button class="btn btn-primary ms-3 border-white" type="button" 
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" 
+                            aria-controls="offcanvasRight"><i class="fa-solid fa-plus" ></i></button>
 
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <form class="row g-3">
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Nome" aria-label="First name">
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Cognome" aria-label="Last name">
+                                            </div>
+                                        </div>
+                                        
+                                        <label for="inputEmail4" class="form-label">Email</label>
+
+                                        <div class="input-group flex-nowrap">
+                                            <span class="input-group-text" id="addon-wrapping">@</span>
+                                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                                          </div>
+                                          
+                                        <div class="col-md-6">
+                                          <input type="email" class="form-control" id="inputEmail4">
+                                        </div>
+
+                                        <div class="input-group flex-nowrap">
+                                            <span class="input-group-text" id="addon-wrapping">@</span>
+                                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                          <label for="inputPassword4" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
