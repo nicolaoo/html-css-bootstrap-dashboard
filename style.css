@@ -94,11 +94,8 @@ header {
     display: flex;
 }
 
-
-
 .sidebar{
     flex-shrink: 0;
-    height: calc(100vh - 66px);
     width: 140px;
     overflow: hidden;
     background-color: var(--blue);
