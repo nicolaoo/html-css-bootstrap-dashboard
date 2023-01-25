@@ -107,7 +107,20 @@ header {
 
 .sidebar{
     flex-shrink: 0;
-    height: 100vh;
+    height: calc(100vh - 66px);
     width: 140px;
     overflow: hidden;
+    /* background-image: url("./img/sidebar-bg.png"); */
+}
+
+.icon-sidebar {
+    font-size: 20px;
+}
+
+.sidebar-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
 }
