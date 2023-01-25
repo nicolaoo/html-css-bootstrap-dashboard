@@ -31,13 +31,6 @@ ul {
     --back__header:rgb(248,249,250);
 }
 
-.debug .hero-content {
-    background-color: red;
-}
-
-.debug .header-hero {
-    background-color: var(--azure);
-}
 
 
 
@@ -164,6 +157,7 @@ header {
 
 /* Hero */
 
+
 .hero {
     flex-grow: 1;
     width: calc(100% - 140px);
@@ -180,12 +174,16 @@ header {
 }
 
 .hero-content {
-    background-color: red;
     flex-grow: 1;
+    display: flex;
 }
 
 .text-bg-primary {
     background-color: var(--blue-badgs)!important;
+}
+
+.card {
+    width: auto!important;
 }
 
 @media screen and (min-width:950px) {
