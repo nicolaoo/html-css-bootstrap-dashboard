@@ -92,8 +92,11 @@ header {
     }
 }
 
-/* MAIN */
+/************
+    MAIN 
+ **********/
 
+/* Sidebar */
 
 .content {
     display: flex;
@@ -137,4 +140,30 @@ header {
 .menu-sidebar i,
 .menu-sidebar p {
     padding: 6px;
+}
+
+@media screen and (min-width:100px){
     
+    .sidebar{
+        width: 65px;
+    }
+
+    .menu-sidebar p{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:980px){
+    
+    .sidebar{
+        width: 140px;
+    }
+
+    .menu-sidebar p{
+        display: block;
+    }
+
+}
+/* Sidebar */
+
