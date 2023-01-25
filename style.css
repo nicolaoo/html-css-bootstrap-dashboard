@@ -31,16 +31,14 @@ ul {
     --back__header:rgb(248,249,250);
 }
 
-
-
-.debug .sidebar {
-    background-color: var(--blue);
+.debug .hero-content {
+    background-color: red;
 }
 
-.debug .hero {
+.debug .header-hero {
     background-color: var(--azure);
+    
 }
-
 
 
 /* HEADER */
@@ -98,22 +96,18 @@ header {
 
 /* Sidebar */
 
-.content {
+.content-head {
     display: flex;
 }
 
-.hero {
-    flex-grow: 1;
-    width: calc(100% - 140px);
-    overflow: auto;
-}
+
 
 .sidebar{
     flex-shrink: 0;
     height: calc(100vh - 66px);
     width: 140px;
     overflow: hidden;
-    /* background-image: url("./img/sidebar-bg.png"); */
+    background-color: var(--blue);
 }
 
 .icon-sidebar {
@@ -160,10 +154,36 @@ header {
         width: 140px;
     }
 
-    .menu-sidebar p{
+    .menu-sidebar p {
         display: block;
     }
 
 }
-/* Sidebar */
+
+
+/* Hero */
+
+.hero {
+    flex-grow: 1;
+    width: calc(100% - 140px);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-hero {
+    background-color: var(--azure);
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.hero-content {
+    background-color: red;
+    flex-grow: 1;
+}
+
+
+
+
+
 
