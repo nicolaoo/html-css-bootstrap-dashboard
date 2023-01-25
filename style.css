@@ -188,6 +188,11 @@ header {
     background-color: var(--blue-badgs)!important;
 }
 
+@media screen and (min-width:950px) {
+    .offcanvas.offcanvas-end{
+        width: 800px;
+    }
+}
 
 
 
