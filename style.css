@@ -124,3 +124,17 @@ header {
     flex-direction: column;
     color: white;
 }
+
+.menu-sidebar :hover  {
+    background-color: rgb(252, 252, 252,0.5);
+}
+
+.sidebar .menu-sidebar {
+    width: auto;
+    opacity: 0.9;
+}
+
+.menu-sidebar i,
+.menu-sidebar p {
+    padding: 6px;
+    
