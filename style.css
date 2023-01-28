@@ -180,7 +180,7 @@ header {
 }
 
 .avatar{
-    flex-basis: 5%;
+    width: 30px;
 }
 
 .card {
